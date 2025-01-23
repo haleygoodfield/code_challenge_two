@@ -15,28 +15,27 @@ console.log("Updated Product List:", products)
 
 // Task 2 - Accessing and Modifying Arrays 
 // Declare an array scores with at least five numerical values.
-let scores = [7, 12, 21, 28, 35];
+let scores = [93, 45, 88, 89, 97];
 
 // Update the second score in the array.
-scores[1]= 14;
+scores[1]= 90;
 console.log(scores);
 
 // Log the updated array to the console.
 console.log("Updated Scores:", scores);
 
 // Calculate the average of all scores. 
-let num1 = 7
-let num2 = 14
-let num3 = 21
-let num4 = 28
-let num5 = 35
+let num1 = 93
+let num2 = 90
+let num3 = 88
+let num4 = 89
+let num5 = 97
 let sum = num1 + num2 +num3 +num4 +num5;
 
 let average = sum / scores.length;
 
 //Log the average score to the console.
 console.log("Average of Scores", average);
-
 
 
 
