@@ -8,9 +8,9 @@ products.push("Face Wash");
 // Remove the last product from the array.
 products.pop();
 
-
 // Log the updated product list to the console.
-console.log("Updated Product List:", products)
+console.log("Updated Product List :", products)
+
 
 
 // Task 2 - Accessing and Modifying Arrays 
@@ -19,10 +19,9 @@ let scores = [93, 45, 88, 89, 97];
 
 // Update the second score in the array.
 scores[1]= 90;
-console.log(scores);
 
 // Log the updated array to the console.
-console.log("Updated Scores:", scores);
+console.log("Updated Student Scores :", scores);
 
 // Calculate the average of all scores. 
 let num1 = 93
@@ -35,7 +34,31 @@ let sum = num1 + num2 +num3 +num4 +num5;
 let average = sum / scores.length;
 
 //Log the average score to the console.
-console.log("Average of Scores", average);
+console.log("Average of Student Scores :", average);
+
+
+
+// Task 3 - Working with Objects
+// Declare an object employee with properties: name, age, department, and isActive.
+let employee = { 
+    name: "Debby Smith ",
+    age: 46,
+    department: "Manufacturing",
+    isActive: true 
+};
+
+// Update the department property.
+employee.department = "Electronics";
+
+// Add a new property position to the object.
+employee.position = "IT Manager";
+
+// Log the updated object to the console.
+console.log("Updated Employee Informatiom :", employee);
+
+
+
+
 
 
 
