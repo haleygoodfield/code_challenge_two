@@ -61,16 +61,37 @@ console.log("Updated Employee Informatiom :", employee);
 // Task 4 - Array of Objects 
 // Declare an array customers containing at least three objects, each with name, email, and purchaseAmount properties.
 let customers = [
-    { name: "Kanye West", email: "ye@email.com", purchaseAmmount: "$ 360"},
-    { name: "Kim Kardashian", email: "kimberlyk@email.com", purchaseAmmount: "$ 500"},
-    { name: "Joe Dyllan", email: "jdyllan231@email.com", purchaseAmmount: "$ 120"}
+    { name: "Kanye West", email: "ye@email.com", purchaseAmount: "$ 360"},
+    { name: "Kim Kardashian", email: "kimberlyk@email.com", purchaseAmount: "$ 500"},
+    { name: "Joe Dyllan", email: "jdyllan231@email.com", purchaseAmount: "$ 120"}
 ];
 
 // Add a new customer object to the array.
-customers.push({ name: "Katie Boss", email: "girlboss@email.com", purchaseAmmount: "$ 435"})
+customers.push({ name: "Katie Boss", email: "girlboss@email.com", purchaseAmount: "$ 435"})
 
 // Log the entire customer list to the console.
 console.log("Customer Record List :", customers);
+
+
+// Task 5 - Object Methods
+// Declare an object order with properties: orderId, customerName, and amount.\
+let order = {
+    orderID: 77,
+    customerName: "Mr. Timothee",
+    amount: 150.00,
+    
+    // Add a method calculateTax that returns the tax amount (assume 10% tax rate).
+    calculateTax: function() {
+        const taxRate = 0.10;
+        return this.amount * taxRate;
+    }
+};
+// Log the order details and tax amount to the console.
+console.log("Order Details :", order);
+console.log("Tax Ammount :", order.calculateTax());
+
+
+
 
 
 
