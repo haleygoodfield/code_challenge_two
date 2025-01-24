@@ -56,7 +56,23 @@ employee.position = "IT Manager";
 // Log the updated object to the console.
 console.log("Updated Employee Informatiom :", employee);
 
-// I realized I messed up the Task 2 Name - This is so it is named correctly again!
+
+
+// Task 4 - Array of Objects 
+// Declare an array customers containing at least three objects, each with name, email, and purchaseAmount properties.
+let customers = [
+    { name: "Kanye West", email: "ye@email.com", purchaseAmmount: "$ 360"},
+    { name: "Kim Kardashian", email: "kimberlyk@email.com", purchaseAmmount: "$ 500"},
+    { name: "Joe Dyllan", email: "jdyllan231@email.com", purchaseAmmount: "$ 120"}
+];
+
+// Add a new customer object to the array.
+customers.push({ name: "Katie Boss", email: "girlboss@email.com", purchaseAmmount: "$ 435"})
+
+// Log the entire customer list to the console.
+console.log("Customer Record List :", customers);
+
+
 
 
 
