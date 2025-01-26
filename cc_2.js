@@ -2,7 +2,7 @@
 // Declare an array products using let and initialize it with at least five product names.
 let products = ["Shampoo", "Lotion", "Perfume", "Conditioner", "Body Wash"];
 
-// Add a new product to the array.
+// Add a new product to the end of the array.
 products.push("Face Wash");
 
 // Remove the last product from the array.
@@ -24,14 +24,8 @@ scores[1]= 90;
 console.log("Updated Student Scores :", scores);
 
 // Calculate the average of all scores. 
-let num1 = 93
-let num2 = 90
-let num3 = 88
-let num4 = 89
-let num5 = 97
-let sum = num1 + num2 +num3 +num4 +num5;
-
-let average = sum / scores.length;
+let sum = scores.reduce((a,b) => a + b, 0);
+let average = sum / scores.length; 
 
 //Log the average score to the console.
 console.log("Average of Student Scores :", average);
@@ -79,7 +73,7 @@ let order = {
     orderID: 77,
     customerName: "Mr. Timothee",
     amount: 150.00,
-    
+
     // Add a method calculateTax that returns the tax amount (assume 10% tax rate).
     calculateTax: function() {
         const taxRate = 0.10;
@@ -89,6 +83,8 @@ let order = {
 // Log the order details and tax amount to the console.
 console.log("Order Details :", order);
 console.log("Tax Ammount :", order.calculateTax());
+
+// Coding challenge 2 is Complete! 
 
 
 
